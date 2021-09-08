@@ -22,7 +22,6 @@ public class TercerActivity extends AppCompatActivity {
         Toast toast = Toast.makeText(context, text, duracion);
         toast.show();
     }
-
     private void showme() {
         Intent show = getIntent();
         String r1 = show.getStringExtra(PrimerActivity.name) ;
