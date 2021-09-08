@@ -27,9 +27,6 @@ public class SegundaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_segunda);
 
-
-
-
         Context context = getApplicationContext();
         CharSequence text = "BIENVENIDO ";
         CharSequence text2 = " ESTAMOS EN LA CALCULADORA";
@@ -43,11 +40,8 @@ public class SegundaActivity extends AppCompatActivity {
 
         txt_respuesta = findViewById(R.id.respuesta);
 
-
-
         editn1 = findViewById(R.id.n);
         editn2 = findViewById(R.id.n2);
-
 
         btn_suma = findViewById(R.id.btnsuma);
         btn_suma.setOnClickListener(new View.OnClickListener() {
@@ -57,8 +51,6 @@ public class SegundaActivity extends AppCompatActivity {
 
             }
         });
-
-
         btn_resta = findViewById(R.id.btnresta);
         btn_resta.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -67,8 +59,6 @@ public class SegundaActivity extends AppCompatActivity {
 
             }
         });
-
-
         btn_multp = findViewById(R.id.btnmult);
         btn_multp.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -77,8 +67,6 @@ public class SegundaActivity extends AppCompatActivity {
 
             }
         });
-
-
         btn_divi = findViewById(R.id.btndiv);
         btn_divi.setOnClickListener(new View.OnClickListener() {
             @Override
