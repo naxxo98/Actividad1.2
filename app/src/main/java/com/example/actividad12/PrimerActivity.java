@@ -11,7 +11,6 @@ import android.widget.EditText;
 public class PrimerActivity extends AppCompatActivity {
 
     public static String name = "name";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
